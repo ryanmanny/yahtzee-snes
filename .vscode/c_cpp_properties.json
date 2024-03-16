@@ -1,7 +1,10 @@
 {
     "version": 4,
     "env": {
-        "pvsneslibPath": ["c:/snesdev/pvsneslib/include/**","c:/snesdev/devkitsnes/include"],
+        "pvsneslibPath": [
+            "/root/code/snes/pvsneslib/pvsneslib/include/**",
+            "/root/code/snes/pvsneslib/devkitsnes/include"
+        ],
         "projectIncludePath": ["${workspaceFolder}", "${workspaceFolder}/src"]
       },
     "configurations": [
